@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#101918"><meta name="description" content="سەفەر شێرزاد؛ پەیوەندی و خزمەتگوزاریی ئۆنلاین بە شێوەیەکی نوێ و پیشەیی.">
+<title>سەفەر شێرزاد | کاری ئۆنلاین</title>
+<style>
+:root{--ink:#101918;--panel:#182321;--cream:#f3efe3;--muted:#b5beb7;--mint:#a9edc4;--orange:#f2a66e;--line:rgba(243,239,227,.13)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ink);color:var(--cream);font-family:Tahoma,"Segoe UI",Arial,sans-serif;line-height:1.8}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 48px));margin:auto}.nav{height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:18px}.mark{width:42px;height:42px;border-radius:14px;background:var(--mint);color:var(--ink);display:grid;place-items:center;font-family:Georgia,serif;font-size:24px;transform:rotate(-7deg)}.links{display:flex;gap:34px;color:var(--muted);font-size:14px}.links a:hover{color:var(--mint)}.nav-cta,.button{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:999px;padding:12px 20px;background:var(--mint);color:var(--ink);font-weight:700;font-size:14px;transition:.2s}.nav-cta:hover,.button:hover{transform:translateY(-2px);box-shadow:0 10px 28px #a9edc433}.hero{min-height:680px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:40px;padding:72px 0 88px}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--mint);font-size:13px;font-weight:700;letter-spacing:.02em}.eyebrow:before{content:"";width:26px;height:1px;background:var(--mint)}h1{font-size:clamp(46px,7vw,82px);line-height:1.18;letter-spacing:-.055em;margin:24px 0 20px;max-width:650px}h1 em{color:var(--mint);font-style:normal}.intro{color:var(--muted);font-size:17px;max-width:510px;margin:0 0 32px}.actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap}.text-link{font-weight:700;font-size:14px}.text-link span{color:var(--orange);font-size:20px;vertical-align:-2px;margin-right:7px}.hero-art{position:relative;min-height:460px;display:grid;place-items:center}.orb{position:absolute;width:min(390px,82vw);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 30%,#d0f4d7 0,#a9edc4 16%,#477f69 50%,#213c34 72%,transparent 73%);filter:drop-shadow(0 0 90px #74d9a522)}.orb:before,.orb:after{content:"";position:absolute;border:1px solid #e7f9e733;border-radius:50%;inset:-35px;transform:rotate(30deg) scaleY(.56)}.orb:after{inset:-70px;transform:rotate(-35deg) scaleY(.5);border-color:#f2a66e44}.orbit-card{position:absolute;z-index:2;background:#172320d9;border:1px solid var(--line);backdrop-filter:blur(12px);padding:16px 19px;border-radius:18px;box-shadow:0 20px 60px #0003}.orbit-card small{display:block;color:var(--muted);font-size:11px}.orbit-card strong{font-size:15px}.card-one{top:52px;right:0}.card-two{bottom:78px;left:0}.spark{position:absolute;color:var(--orange);font-size:28px}.s1{top:62px;left:16%}.s2{right:13%;bottom:70px;color:var(--mint)}.section{padding:90px 0;border-top:1px solid var(--line)}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:36px}.section h2{font-size:clamp(32px,4vw,48px);letter-spacing:-.04em;line-height:1.3;margin:12px 0 0}.section-head p{max-width:390px;color:var(--muted);margin:0}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.service{padding:28px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(145deg,#182321,#131c1a);min-height:218px;transition:.25s}.service:hover{border-color:#a9edc477;transform:translateY(-4px)}.icon{width:46px;height:46px;border-radius:15px;display:grid;place-items:center;background:#a9edc418;color:var(--mint);font-size:21px}.service h3{font-size:18px;margin:20px 0 6px}.service p{font-size:14px;color:var(--muted);margin:0}.examples{display:grid;grid-template-columns:1fr 1fr;gap:16px}.example-card{border:1px solid var(--line);border-radius:24px;overflow:hidden;background:#151f1d}.example-visual{height:290px;display:grid;place-items:center;overflow:hidden;position:relative}.shop .example-visual{background:#d8e4ce}.mock-window{width:75%;background:#f8f6ef;border-radius:15px;overflow:hidden;box-shadow:0 18px 45px #17231e3b;transform:rotate(-2deg)}.mock-top{height:31px;background:#ecebe4;display:flex;align-items:center;gap:5px;padding:0 12px;color:#526158;font-size:9px}.mock-top i{width:6px;height:6px;border-radius:50%;background:#a9b1a5}.mock-top span{margin-right:auto}.mock-shop{height:205px;background:linear-gradient(120deg,#f3eee3 0 55%,#dd9d70 55%);padding:20px 22px;position:relative;color:#283a30}.mock-shop small{font-size:8px}.mock-shop strong{display:block;font-size:27px;line-height:1.15;margin-top:5px}.mock-shop b{display:block;font-size:8px;margin-top:13px}.product{position:absolute;display:grid;place-items:center;border-radius:48% 48% 42% 42%;background:#6c9877;color:#f8f6ef;box-shadow:inset -10px -7px 0 #45634e;font-size:30px}.p1{width:58px;height:76px;right:25%;top:35px;transform:rotate(10deg)}.p2{width:48px;height:62px;right:7%;top:83px;background:#d8c17b;color:#fff4d5}.brand .example-visual{background:#e5a86d}.profile-art{position:relative;width:75%;height:220px;border-radius:14px;background:#1c2824;color:#f5efe2;padding:24px;overflow:hidden;box-shadow:0 18px 45px #17231e3b;transform:rotate(2deg)}.profile-art:after{content:"";position:absolute;width:180px;height:180px;border-radius:50%;background:#a9edc4;left:-55px;bottom:-90px}.profile-art small{position:relative;z-index:1;color:#b8c2b9;font-size:9px}.profile-art strong{position:relative;z-index:1;display:block;font-size:29px;line-height:1.3;margin-top:9px}.profile-circle{position:absolute;left:25px;top:28px;width:55px;height:55px;border-radius:18px;background:#a9edc4;color:#18231e;display:grid;place-items:center;font-size:27px;font-weight:bold;transform:rotate(-8deg)}.profile-line{position:absolute;z-index:2;right:24px;bottom:27px;width:100px;height:2px;background:#f2a66e}.profile-stamp{position:absolute;z-index:2;left:27px;bottom:25px;font-size:9px;color:#1a2922;line-height:1.4;transform:rotate(-8deg)}.profile-spark{position:absolute;right:20px;bottom:12px;color:#f2a66e;font-size:25px}.example-info{padding:22px 25px 25px}.example-tag{color:var(--mint);font-size:11px;font-weight:bold}.example-info h3{font-size:20px;margin:6px 0}.example-info p{color:var(--muted);font-size:13px;margin:0;max-width:430px}@media(max-width:800px){.examples{grid-template-columns:1fr}}.about{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px;align-items:center}.quote{font-size:clamp(28px,4vw,44px);line-height:1.55;letter-spacing:-.035em}.quote span{color:var(--mint)}.about-copy{color:var(--muted);font-size:16px}.stats{display:flex;gap:42px;margin-top:28px}.stat strong{display:block;font-size:24px;color:var(--cream)}.stat small{color:var(--muted)}.contact{position:relative;overflow:hidden;background:var(--panel);border:1px solid var(--line);border-radius:30px;padding:54px;display:flex;justify-content:space-between;align-items:center;gap:30px}.contact:after{content:"";position:absolute;width:280px;height:280px;border-radius:50%;background:#a9edc412;filter:blur(30px);left:-70px;top:-110px}.contact h2{font-size:clamp(32px,4vw,48px);margin:10px 0}.contact p{color:var(--muted);margin:0;max-width:460px}.contact>*{position:relative;z-index:1}.footer{padding:28px 0;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:15px}.footer strong{color:var(--cream)}
+@media(max-width:800px){.links{display:none}.hero{grid-template-columns:1fr;padding:62px 0 54px;gap:8px}.hero-art{min-height:390px;order:-1}.hero-copy{text-align:center}.intro{margin-inline:auto}.actions{justify-content:center}.eyebrow{justify-content:center}.section-head{display:block}.section-head p{margin-top:14px}.services{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr;gap:20px}.contact{padding:36px;align-items:flex-start;flex-direction:column}}@media(max-width:520px){.wrap{width:min(100% - 32px,1160px)}.nav{height:72px}.brand{font-size:15px}.mark{width:36px;height:36px}.nav-cta{padding:10px 14px;font-size:12px}.hero-art{min-height:320px}.orb{width:260px}.card-one{top:30px}.card-two{bottom:35px}.services{grid-template-columns:1fr}.service{min-height:unset}.section{padding:64px 0}.stats{gap:22px}.contact{padding:28px 22px}.footer{flex-direction:column;text-align:center;gap:4px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+.contact-form{width:min(100%,480px);display:grid;gap:12px}.contact-form label{display:grid;gap:5px;color:var(--cream);font-size:13px;font-weight:700}.contact-form input,.contact-form textarea{width:100%;border:1px solid var(--line);border-radius:12px;background:#101918;color:var(--cream);font:inherit;font-size:14px;padding:12px 14px;outline:none}.contact-form input:focus,.contact-form textarea:focus{border-color:var(--mint);box-shadow:0 0 0 3px #a9edc422}.contact-form textarea{min-height:115px;resize:vertical}.contact-form button{border:0;cursor:pointer;font-family:inherit}.form-status{min-height:24px;margin:0;color:var(--muted);font-size:13px}.form-status.success{color:var(--mint)}.form-status.error{color:#ffad9f}.contact{align-items:flex-start}.items-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.item-card{overflow:hidden;border:1px solid var(--line);border-radius:20px;background:#151f1d}.item-card img{width:100%;height:210px;object-fit:cover;display:block;background:var(--panel)}.item-card-body{padding:20px}.item-card h3{margin:0 0 8px;font-size:19px}.item-card p{margin:0;color:var(--muted);font-size:14px;white-space:pre-wrap}.item-price{display:inline-block;margin-top:14px;color:var(--mint);font-weight:800}.items-empty{color:var(--muted);border:1px dashed var(--line);border-radius:18px;padding:24px;text-align:center}.owner-entry{display:inline-block;color:var(--muted);font-size:12px}.owner-entry:hover{color:var(--mint)}.owner-section{background:#121b19}.owner-box{max-width:760px;margin:auto;padding:30px;border:1px solid var(--line);border-radius:22px;background:#182321}.owner-box h3{margin-top:0}.owner-form{display:grid;gap:12px}.owner-form label{display:grid;gap:5px;font-size:13px;color:var(--cream)}.owner-form input,.owner-form textarea{width:100%;border:1px solid var(--line);border-radius:11px;background:#101918;color:var(--cream);font:inherit;font-size:14px;padding:11px 13px}.owner-form textarea{min-height:100px;resize:vertical}.owner-actions{display:flex;flex-wrap:wrap;gap:10px}.owner-status{min-height:22px;color:var(--muted);font-size:13px}.owner-status.success{color:var(--mint)}.owner-status.error{color:#ffad9f}.owner-dashboard{margin-top:28px;padding-top:22px;border-top:1px solid var(--line)}.owner-list{display:grid;gap:10px}.owner-row{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:13px;border:1px solid var(--line);border-radius:12px}.owner-row small{display:block;color:var(--muted)}.owner-row button,.owner-logout{border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--cream);padding:8px 13px;font:inherit;cursor:pointer}.owner-row button:hover,.owner-logout:hover{border-color:#ffad9f;color:#ffad9f}@media(max-width:800px){.items-grid{grid-template-columns:1fr 1fr}}@media(max-width:520px){.items-grid{grid-template-columns:1fr}.owner-box{padding:22px 16px}.owner-row{align-items:flex-start;flex-direction:column}}[hidden]{display:none!important}</style>
+</head>
+<body>
+<header class="wrap nav"><a class="brand" href="#home" aria-label="سەفەر شێرزاد - سەرەتا"><span class="mark">س</span><span>سەفەر شێرزاد</span></a><nav class="links" aria-label="سەرەکی"><a href="#services">خزمەتگوزاری</a><a href="#offers">پێشکەشەکان</a><a href="#examples">نموونەکان</a><a href="#about">دەربارە</a><a href="#contact">پەیوەندی</a><a href="#owner">بەشی ئاونەر</a></nav><a class="nav-cta" href="#contact">دەستپێکردن <span>↙</span></a></header>
+<main id="home"><section class="wrap hero"><div class="hero-copy"><div class="eyebrow">پەیوەندییەکی نوێ بۆ کارەکەت</div><h1>کارەکەت<br>ببە <em>ئاستێکی نوێ</em></h1><p class="intro">من سەفەر شێرزادم. یارمەتیت دەدەم بیرۆکەکانت بە شێوەیەکی ڕوون و پیشەیی بگەیەنیتە جیهانی ئۆنلاین.</p><div class="actions"><a class="button" href="#contact">با گفتوگۆ بکەین <span>↙</span></a><a class="text-link" href="#services">بینینی خزمەتگوزارییەکان <span>←</span></a></div></div><div class="hero-art" aria-hidden="true"><div class="orb"></div><div class="orbit-card card-one"><small>ئامادەیی بۆ</small><strong>هەنگاوی داهاتوو ✦</strong></div><div class="orbit-card card-two"><small>کارکردن لە</small><strong>هەر شوێنێک، ئۆنلاین</strong></div><span class="spark s1">✳</span><span class="spark s2">✦</span></div></section>
+<section class="section" id="services"><div class="wrap"><div class="section-head"><div><div class="eyebrow">چی پێشکەشت دەکەم</div><h2>خزمەتگوزارییەکان</h2></div><p>پشتگیرییەکی ڕوون و ڕێکخراو بۆ ئەوەی کاروبارەکەت بە ئاسانی لە ئۆنلاین گەشە بکات.</p></div><div class="services"><article class="service"><div class="icon">✳</div><h3>ڕاوێژکاری و پلاندانان</h3><p>ڕوونکردنەوەی ئامانج و دانانی هەنگاوی گونجاو بۆ گەیشتن پێی.</p></article><article class="service"><div class="icon">↗</div><h3>بەڕێوەبردنی کارە ئۆنلاینەکان</h3><p>یارمەتی لە ڕێکخستن و بەڕێوەبردنی کار و پڕۆژەکان لە دوورەوە.</p></article><article class="service"><div class="icon">◎</div><h3>پەیوەندی و هاوکاری</h3><p>دروستکردنی پەیوەندییەکی پیشەیی و هەماهەنگی لەگەڵ کڕیارەکان.</p></article></div></div></section>
+<section class="section" id="examples"><div class="wrap"><div class="section-head"><div><div class="eyebrow">نموونەی بیرۆکە</div><h2>دوو بیرۆکە، دوو ڕێگای گەشە</h2></div><p>ئەم نموونانە پیشاندانی شێوازی کارن؛ وردەکارییەکان دەتوانن بەپێی جۆری کارەکەت بگۆڕدرێن.</p></div><div class="examples"><article class="example-card shop"><div class="example-visual"><div class="mock-window"><div class="mock-top"><i></i><i></i><i></i><span>بازاڕی ڕەنگ</span></div><div class="mock-shop"><small>کۆمەڵەی نوێ</small><strong>ڕەنگی<br>ژیان</strong><b>بینینی کاڵاکان ←</b><div class="product p1">◌</div><div class="product p2">✿</div></div></div></div><div class="example-info"><span class="example-tag">فرۆشتنی ئۆنلاین</span><h3>بازاڕی ڕەنگ</h3><p>بیرۆکەی فرۆشگایەکی سادە و جوان بۆ پیشاندانی کاڵا و گەیاندنیان بە کڕیار.</p></div></article><article class="example-card brand"><div class="example-visual"><div class="profile-art"><span class="profile-spark">✳</span><div class="profile-circle">س</div><small>براندی کەسی</small><strong>بیرۆکەت<br>بگەیەنە</strong><span class="profile-line"></span><span class="profile-stamp">داهاتوو<br>لە تۆوەیە</span></div></div><div class="example-info"><span class="example-tag">براندی کەسی</span><h3>ناسنامەی ئۆنلاین</h3><p>بیرۆکەیەک بۆ پیشاندانی تواناکان، بەهێزکردنی ناسنامە و دروستکردنی پەیوەندی.</p></div></article></div></div></section><section class="section" id="offers"><div class="wrap"><div class="section-head"><div><div class="eyebrow">نوێترین پێشکەشەکان</div><h2>پێشکەشەکانی سەفەر</h2></div><p>ئەو شتانەی لێرە دەبینیت لەلایەن خاوەنکارەوە زیاد دەکرێن و بۆ هەموو سەردانکەرانی وێبسایت دەردەکەون.</p></div><div class="items-grid" id="publicItems"><div class="items-empty">پێشکەشەکان بار دەکرێن...</div></div><p class="form-status" id="publicItemsStatus" role="status" aria-live="polite"></p></div></section><section class="section" id="about"><div class="wrap about"><div class="quote">«گەورەترین گۆڕانکاری، بە <span>یەک هەنگاوی بچووک</span> دەست پێدەکات.»</div><div class="about-copy"><div class="eyebrow">دەربارەی من</div><h2>سەفەر شێرزاد</h2><p>من باوەڕم وایە کارکردنی ئۆنلاین دەتوانێت دەرفەتی نوێ دروست بکات. ئامانجم ئەوەیە بە ڕێکخستن، پەیوەندییەکی باش و بیرۆکەی ڕوون، یارمەتیت بدەم کارەکەت بەرەو پێش ببەیت.</p><div class="stats"><div class="stat"><strong>١:١</strong><small>هاوکاریی تایبەت</small></div><div class="stat"><strong>ئۆنلاین</strong><small>لە هەر شوێنێک</small></div><div class="stat"><strong>هەموو کات</strong><small>بۆ گفتوگۆ</small></div></div></div></div></section>
+<section class="section" id="contact"><div class="wrap"><div class="contact"><div><div class="eyebrow">با دەست پێ بکەین</div><h2>بیرۆکەت هەیە؟</h2><p>زانیارییەکانت بنووسە؛ نامەکەت لە Supabase پاشەکەوت دەبێت و دەتوانیت لە Table Editor بیبینیت.</p></div><form class="contact-form" id="contactForm"><label for="contactName">ناوت<input id="contactName" name="name" type="text" maxlength="100" autocomplete="name" required placeholder="ناوی تەواوت"></label><label for="contactEmail">ئیمەیڵ (ئارەزوومەندانە)<input id="contactEmail" name="email" type="email" maxlength="254" autocomplete="email" placeholder="name@example.com"></label><label for="contactMessage">نامەکەت<textarea id="contactMessage" name="message" maxlength="5000" required placeholder="چۆن دەتوانم یارمەتیت بدەم؟"></textarea></label><button class="button" id="sendMessage" type="submit">ناردنی نامە <span>↙</span></button><p class="form-status" id="formStatus" role="status" aria-live="polite"></p></form></div></div></section></main>
+<section class="section owner-section" id="owner"><div class="wrap"><div class="section-head"><div><div class="eyebrow">تەنها بۆ خاوەنکار</div><h2>بەشی ئاونەر</h2></div><p>بچۆ ژوورەوە، پێشکەشێک زیاد بکە، و بە شێوەی خۆکار لە بەشی کڕیاران پیشانی بدە.</p></div><div class="owner-box"><form class="owner-form" id="ownerLogin"><h3>چوونەژوورەوە</h3><label for="ownerEmail">ئیمەیڵ<input id="ownerEmail" name="email" type="email" autocomplete="username" required></label><label for="ownerPassword">وشەی نهێنی<input id="ownerPassword" name="password" type="password" autocomplete="current-password" required></label><div class="owner-actions"><button class="button" type="submit">چوونەژوورەوە</button></div></form><p class="owner-status" id="ownerStatus" role="status" aria-live="polite"></p><div class="owner-dashboard" id="ownerDashboard" hidden><div class="owner-actions" style="justify-content:space-between;align-items:center"><h3>زیادکردنی پێشکەش</h3><button class="owner-logout" id="ownerLogout" type="button">چوونەدەرەوە</button></div><form class="owner-form" id="itemForm"><label for="itemTitle">ناوی پێشکەش<input id="itemTitle" name="title" type="text" maxlength="120" required placeholder="ناوی بەرهەم یان خزمەتگوزاری"></label><label for="itemDescription">وردەکاری<textarea id="itemDescription" name="description" maxlength="2000" required placeholder="زانیارییەکانی پێشکەش"></textarea></label><label for="itemPrice">نرخ (ئارەزوومەندانە)<input id="itemPrice" name="price" type="text" maxlength="80" placeholder="بۆ نموونە: ١٥ هەزار دینار"></label><label for="itemImage">لینکی وێنە (ئارەزوومەندانە)<input id="itemImage" name="image_url" type="url" placeholder="https://..."></label><div class="owner-actions"><button class="button" id="itemSubmit" type="submit">زیادکردن و بڵاوکردنەوە</button></div></form><h3 style="margin-top:26px">پێشکەشەکانت</h3><div class="owner-list" id="ownerItems"></div></div></div></div></section><footer class="wrap footer"><span>© ٢٠٢٦ <strong>سەفەر شێرزاد</strong> — هەموو مافەکان پارێزراون.</span><span>بە بیرۆکەی باش، بەرەو پێش. · <a class="owner-entry" href="#owner">چوونەژوورەوەی ئاونەر ↙</a></span></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+  // Supabase Dashboard > Connect (or Settings > API Keys)
+  const SUPABASE_URL = 'https://xcvcsdhjxhovwkorwnxe.supabase.co';
+  const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_M25L1YqkMbh7pYnBxpmMGw_7-5PVyrg';
+
+  const contactForm = document.getElementById('contactForm');
+  const formStatus = document.getElementById('formStatus');
+  const sendButton = document.getElementById('sendMessage');
+
+  contactForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    formStatus.className = 'form-status';
+
+    if (SUPABASE_URL.includes('PASTE_') || SUPABASE_PUBLISHABLE_KEY.includes('PASTE_')) {
+      formStatus.textContent = 'تکایە Project URL و Publishable key ـەکەت لە کۆدەکە دابنێ.';
+      formStatus.classList.add('error');
+      return;
+    }
+
+    const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
+    const formData = new FormData(contactForm);
+    const payload = {
+      name: String(formData.get('name') || '').trim(),
+      email: String(formData.get('email') || '').trim() || null,
+      message: String(formData.get('message') || '').trim()
+    };
+
+    sendButton.disabled = true;
+    sendButton.textContent = 'نامەکە دەنێردرێت...';
+    formStatus.textContent = '';
+
+    const { error } = await supabaseClient.from('contact_messages').insert(payload);
+    sendButton.disabled = false;
+    sendButton.innerHTML = 'ناردنی نامە <span>↙</span>';
+
+    if (error) {
+      formStatus.textContent = 'نامەکە نەگەیشت. تکایە دواتر هەوڵ بدەرەوە.';
+      formStatus.classList.add('error');
+      console.error('Supabase insert failed:', error.message);
+      return;
+    }
+
+    contactForm.reset();
+    formStatus.textContent = 'سوپاس! نامەکەت بە سەرکەوتوویی نێردرا.';
+    formStatus.classList.add('success');
+  });
+</script>
+<script>
+  const OWNER_EMAIL = 'dezayydezayee@gmail.com';
+  const ownerSupabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
+  const publicItems = document.getElementById('publicItems');
+  const publicItemsStatus = document.getElementById('publicItemsStatus');
+  const ownerLogin = document.getElementById('ownerLogin');
+  const ownerDashboard = document.getElementById('ownerDashboard');
+  const ownerStatus = document.getElementById('ownerStatus');
+  const ownerItems = document.getElementById('ownerItems');
+  const itemForm = document.getElementById('itemForm');
+
+  function escapeHtml(value) {
+    return String(value ?? '').replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+  }
+
+  function safeImageUrl(value) {
+    try {
+      const url = new URL(value);
+      return url.protocol === 'https:' ? url.href : '';
+    } catch { return ''; }
+  }
+
+  function renderItem(item, owner = false) {
+    const image = safeImageUrl(item.image_url);
+    return `<article class="item-card">${image ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(item.title)}" loading="lazy">` : ''}<div class="item-card-body"><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p>${item.price ? `<span class="item-price">${escapeHtml(item.price)}</span>` : ''}${owner ? `<div style="margin-top:14px"><button class="owner-logout" type="button" data-delete-item="${Number(item.id)}">سڕینەوە</button></div>` : ''}</div></article>`;
+  }
+
+  async function loadPublicItems() {
+    const { data, error } = await ownerSupabaseClient.from('site_items').select('id,title,description,price,image_url,created_at').eq('is_published', true).order('created_at', { ascending: false });
+    if (error) {
+      publicItems.innerHTML = '<div class="items-empty">پێشکەشەکان ئێستا بار ناکرێن.</div>';
+      console.error('Loading public items failed:', error.message);
+      return;
+    }
+    publicItems.innerHTML = data.length ? data.map((item) => renderItem(item)).join('') : '<div class="items-empty">هێشتا هیچ پێشکەشێک زیاد نەکراوە.</div>';
+  }
+
+  async function loadOwnerItems() {
+    const { data, error } = await ownerSupabaseClient.from('site_items').select('id,title,description,price,image_url,created_at').order('created_at', { ascending: false });
+    if (error) {
+      ownerStatus.textContent = 'نەتوانرا پێشکەشەکان بار بکرێن. ڕێکخستنی RLS و ئیمەیڵی ئاونەر بپشکنە.';
+      ownerStatus.className = 'owner-status error';
+      return;
+    }
+    ownerItems.innerHTML = data.length ? data.map((item) => `<div class="owner-row"><div><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.price || 'بێ نرخ')}</small></div><button type="button" data-delete-item="${Number(item.id)}">سڕینەوە</button></div>`).join('') : '<div class="items-empty">هێشتا هیچ پێشکەشێک زیاد نەکراوە.</div>';
+  }
+
+  async function showOwnerPanel(user) {
+    const email = (user?.email || '').toLowerCase();
+    if (email !== OWNER_EMAIL.toLowerCase()) {
+      ownerDashboard.hidden = true;
+      ownerLogin.hidden = false;
+      ownerStatus.textContent = 'ئەم ئەکاونتە مۆڵەتی ئاونەری نییە.';
+      ownerStatus.className = 'owner-status error';
+      await ownerSupabaseClient.auth.signOut();
+      return;
+    }
+    ownerLogin.hidden = true;
+    ownerDashboard.hidden = false;
+    ownerStatus.textContent = `بەخێربێیت، ${email}`;
+    ownerStatus.className = 'owner-status success';
+    await loadOwnerItems();
+  }
+
+  ownerLogin.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const formData = new FormData(ownerLogin);
+    ownerStatus.textContent = 'چوونەژوورەوە...';
+    ownerStatus.className = 'owner-status';
+    const { data, error } = await ownerSupabaseClient.auth.signInWithPassword({ email: String(formData.get('email')).trim(), password: String(formData.get('password')) });
+    if (error) {
+      ownerStatus.textContent = 'چوونەژوورەوە سەرکەوتوو نەبوو. ئیمەیڵ و وشەی نهێنی بپشکنە.';
+      ownerStatus.className = 'owner-status error';
+      return;
+    }
+    await showOwnerPanel(data.user);
+  });
+
+  itemForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const formData = new FormData(itemForm);
+    const rawImage = String(formData.get('image_url') || '').trim();
+    const imageUrl = rawImage ? safeImageUrl(rawImage) : null;
+    if (rawImage && !imageUrl) {
+      ownerStatus.textContent = 'لینکی وێنە دەبێت بە https:// دەست پێ بکات.';
+      ownerStatus.className = 'owner-status error';
+      return;
+    }
+    const payload = { title: String(formData.get('title')).trim(), description: String(formData.get('description')).trim(), price: String(formData.get('price') || '').trim() || null, image_url: imageUrl, is_published: true };
+    const { error } = await ownerSupabaseClient.from('site_items').insert(payload);
+    if (error) {
+      ownerStatus.textContent = 'پێشکەشەکە زیاد نەکرا. ڕێکخستنی RLS و SQL بپشکنە.';
+      ownerStatus.className = 'owner-status error';
+      console.error('Adding item failed:', error.message);
+      return;
+    }
+    itemForm.reset();
+    ownerStatus.textContent = 'پێشکەشەکە زیاد کرا و لای کڕیاران دەرکەوت.';
+    ownerStatus.className = 'owner-status success';
+    await Promise.all([loadOwnerItems(), loadPublicItems()]);
+  });
+
+  document.addEventListener('click', async (event) => {
+    const button = event.target.closest('[data-delete-item]');
+    if (!button || ownerDashboard.hidden) return;
+    const id = Number(button.dataset.deleteItem);
+    const { error } = await ownerSupabaseClient.from('site_items').delete().eq('id', id);
+    if (error) {
+      ownerStatus.textContent = 'سڕینەوە سەرکەوتوو نەبوو.';
+      ownerStatus.className = 'owner-status error';
+      return;
+    }
+    ownerStatus.textContent = 'پێشکەشەکە سڕایەوە.';
+    ownerStatus.className = 'owner-status success';
+    await Promise.all([loadOwnerItems(), loadPublicItems()]);
+  });
+
+  document.getElementById('ownerLogout').addEventListener('click', async () => {
+    await ownerSupabaseClient.auth.signOut();
+    ownerDashboard.hidden = true;
+    ownerLogin.hidden = false;
+    ownerStatus.textContent = 'چوویتە دەرەوە.';
+    ownerStatus.className = 'owner-status';
+  });
+
+  loadPublicItems();
+  ownerSupabaseClient.auth.getSession().then(({ data }) => {
+    if (data.session) showOwnerPanel(data.session.user);
+  });
+</script>
+</body></html>
+
+
+
+
+
+
